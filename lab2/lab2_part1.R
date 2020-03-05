@@ -22,3 +22,4 @@ mean(EPI_data$DALY, na.rm = "TRUE")
 
 hist(EPI_data$EPI)
 hist(EPI_data$DALY)
+
