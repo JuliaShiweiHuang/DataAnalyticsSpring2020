@@ -14,7 +14,7 @@ y <- matrix(c(rep(1,npos),rep(-1,nneg)))
 # Visualize the data
 plot(x,col=ifelse(y>0,1,2))
 legend("topleft",c(’Positive’,’Negative’),col=seq(2),pch=1,text.col=seq(2))
-Now we split the data into a training set (80%) and a test set (20%):
+# Now we split the data into a training set (80%) and a test set (20%):
   ## Prepare a training and a test set ##
   ntrain <- round(n*0.8) # number of training examples
 tindex <- sample(n,ntrain) # indices of training samples
